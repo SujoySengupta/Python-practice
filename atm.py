@@ -2,7 +2,7 @@
 An ATM contains Indian Currency notes of 100,200,500 and 2000. Write a 
 python program which calculates and displays the minimum number of notes 
 required to be dispensed to meet the user’s requirement.
-'''
+
 notes=[100,200,500,2000]
 n2=[]
 def amount(n1):
@@ -44,4 +44,4 @@ result = min_notes(amount)
 print("The minimum number of notes required are:")
 for note, count in result.items():
   print(f"{note} : {count}")
-  '''
+  
